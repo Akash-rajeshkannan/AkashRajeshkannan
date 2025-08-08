@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Calculator</h2>
+
+    <div class="calculator">
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+        <input type="string" id="operation" placeholder="Enter operation">
+
+        <!-- <select id="operation">   // if we need operations in drop down format we can use this..!
+            <option value="add">Add</option>
+            <option value="sub">Subtract</option>
+            <option value="mul">Multiply</option>
+            <option value="div">Divide</option>
+        </select> -->
+
+        <button onclick="calculateResult()">Calculate</button>
+
+        <p id="result"></p>
+    </div>
+</body>
+</html>
